@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Computer Networks Module</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1 id="introTitle">Welcome to the Computer Networks Module</h1>
+      <p id="introText">
+        This website contains all documents related to the computer networks
+        module.
+      </p>
+      <div class="language-buttons">
+        <button onclick="switchLanguage('en'),shouldScroll()">English</button>
+        <button onclick="switchLanguage('fr'),shouldScroll()">French</button>
+      </div>
+    </header>
+
+    <section id="documents" class="hidden">
+      <h2 id="documentsTitle">Course Documents</h2>
+
+      <!-- Chapter 0 -->
+      <div class="document-section">
+        <h3 id="chapter0Title">Chapter 0: Introduction to Teleinformatics</h3>
+        <div class="document-links">
+          <a id="chapter0Course" href="#" target="_blank">Course Document</a>
+          <a id="chapter0Exercises" href="#" target="_blank">Exercises</a>
+          <a id="chapter0Solutions" href="#" target="_blank">Solutions</a>
+          <a id="chapter0Quiz" href="#" target="_blank">Quiz</a>
+        </div>
+      </div>
+
+      <!-- Chapter 1 -->
+      <div class="document-section">
+        <h3 id="chapter1Title">
+          Chapter 1: Information Transmission (Layer 1: Physical)
+        </h3>
+        <div class="document-links">
+          <a id="chapter1Course" href="#" target="_blank">Course Document</a>
+          <a id="chapter1Exercises" href="#" target="_blank">Exercises</a>
+          <a id="chapter1Solutions" href="#" target="_blank">Solutions</a>
+          <a id="chapter1Quiz" href="#" target="_blank">Quiz</a>
+        </div>
+      </div>
+
+      <!-- Chapter 2 -->
+      <div class="document-section">
+        <h3 id="chapter2Title">
+          Chapter 2: Encoding and Error Protection (Layer 2: Data Link)
+        </h3>
+        <div class="document-links">
+          <a id="chapter2Course" href="#" target="_blank">Course Document</a>
+          <a id="chapter2Exercises" href="#" target="_blank">Exercises</a>
+          <a id="chapter2Solutions" href="#" target="_blank">Solutions</a>
+          <a id="chapter2Quiz" href="#" target="_blank">Quiz</a>
+        </div>
+      </div>
+
+      <!-- Chapter 3 -->
+      <div class="document-section">
+        <h3 id="chapter3Title">Chapter 3: Local Area Network Architecture</h3>
+        <div class="document-links">
+          <a id="chapter3Course" href="#" target="_blank">Course Document</a>
+          <a id="chapter3Exercises" href="#" target="_blank">Exercises</a>
+          <a id="chapter3Solutions" href="#" target="_blank">Solutions</a>
+          <a id="chapter3Quiz" href="#" target="_blank">Quiz</a>
+        </div>
+      </div>
+
+      <!-- Chapter 4 -->
+      <div class="document-section">
+        <h3 id="chapter4Title">Chapter 4: TCP/IP Architecture</h3>
+        <div class="document-links">
+          <a id="chapter4Course" href="#" target="_blank">Course Document</a>
+          <a id="chapter4Exercises" href="#" target="_blank">Exercises</a>
+          <a id="chapter4Solutions" href="#" target="_blank">Solutions</a>
+          <a id="chapter4Quiz" href="#" target="_blank">Quiz</a>
+        </div>
+      </div>
+
+      <!-- Add more chapters as needed... -->
+    </section>
+
+    <section id="labs" class="hidden">
+      <h2 id="labsTitle">Lab Documents</h2>
+
+      <!-- Lab 1 -->
+      <div class="lab-section">
+        <h3 id="lab1Title">Lab 1: Presentation of the work environment</h3>
+        <div class="lab-links">
+          <a id="lab1Guide" href="#" target="_blank">Lab Guide</a>
+          <a id="lab1Quiz" href="#" target="_blank">Lab Quiz</a>
+        </div>
+      </div>
+	  
+	  <!-- Lab 2 -->
+      <div class="lab-section">
+        <h3 id="lab2Title">Lab 2: Creation of a local network</h3>
+        <div class="lab-links">
+          <a id="lab2Guide" href="#" target="_blank">Lab Guide</a>
+          <a id="lab2Quiz" href="#" target="_blank">Lab Quiz</a>
+        </div>
+      </div>
+	  
+	  <!-- Lab 3 -->
+      <div class="lab-section">
+        <h3 id="lab3Title">Lab 3: Configuration of subnets and routers</h3>
+        <div class="lab-links">
+          <a id="lab3Guide" href="#" target="_blank">Lab Guide</a>
+          <a id="lab3Quiz" href="#" target="_blank">Lab Quiz</a>
+        </div>
+      </div>
+	  
+	  <!-- Lab 4 -->
+      <div class="lab-section">
+        <h3 id="lab4Title">Lab 4: Hub vs Switch and MAC addresses</h3>
+        <div class="lab-links">
+          <a id="lab4Guide" href="#" target="_blank">Lab Guide</a>
+          <a id="lab4Quiz" href="#" target="_blank">Lab Quiz</a>
+        </div>
+      </div>
+	  
+	  <!-- Lab 5 -->
+      <div class="lab-section">
+        <h3 id="lab5Title">Lab 5: The ARP protocol</h3>
+        <div class="lab-links">
+          <a id="lab5Guide" href="#" target="_blank">Lab Guide</a>
+          <a id="lab5Quiz" href="#" target="_blank">Lab Quiz</a>
+        </div>
+      </div>
+	  
+	  <!-- Lab 6 -->
+      <div class="lab-section">
+        <h3 id="lab6Title">Lab 6: Configuration of static routing</h3>
+        <div class="lab-links">
+          <a id="lab6Guide" href="#" target="_blank">Lab Guide</a>
+          <a id="lab6Quiz" href="#" target="_blank">Lab Quiz</a>
+        </div>
+      </div>
+	  
+	  
+
+      <!-- Add more labs as needed... -->
+    </section>
+    <div id="language-switcher">
+      <button onclick="switchLanguage('en')">EN</button>
+      <button onclick="switchLanguage('fr')">FR</button>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
